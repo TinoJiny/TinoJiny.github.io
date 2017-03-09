@@ -68,6 +68,42 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-文章标题" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/03/09/文章标题/" class="article-date">
+  <time datetime="2017-03-09T12:36:01.000Z" itemprop="datePublished">2017-03-09</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/03/09/文章标题/">文章标题</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://houkang.github.io/2017/03/09/文章标题/" data-id="cj02ep5zz0002m4vohjfqvli6" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-second" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2017/03/09/second/" class="article-date">
@@ -90,83 +126,57 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>##开篇先聊聊我这标题<br>0技术基础搭建github技术博客，爷们这名儿起的是不是很矛盾。为什么没技术基础还要弄技术博客，因为开始了这一步，之后就想学点儿技术了（带人入坑的邪恶感，哈哈哈）。其实写这篇文的目的也是为了实现像我一样热爱各种互联网技术但是没有技术的人满足一点点虚荣心，为了给像我一样急需成就感的人带来一丝丝成就感。为了下一步的学习，提供一些原动力。</p>
+        <h2 id="开篇先聊聊我这标题"><a href="#开篇先聊聊我这标题" class="headerlink" title="开篇先聊聊我这标题"></a>开篇先聊聊我这标题</h2><hr>
+<p>0技术基础搭建github免费博客，爷们这名儿起的是不是很矛盾。为什么没技术基础还要弄github的免费博客，因为开始了这一步，之后就想学点儿技术了（带人入坑的邪恶感，哈哈哈）。其实写这篇文的目的也是为了实现像我一样热爱各种互联网技术但是没有技术的人满足一点点虚荣心，为了给像我一样急需成就感的人带来一丝丝成就感。为了下一步的学习，提供一些原动力。</p>
 <p>互联网时代，我们不寂寞。你看不到我，我看不到你。但是你看得到我的文字，我看到自己的心意。</p>
 <p>话不多说，开始正题。</p>
-<p>##适用人群</p>
-<ul>
+<h2 id="谁该玩玩这个东东"><a href="#谁该玩玩这个东东" class="headerlink" title="谁该玩玩这个东东"></a>谁该玩玩这个东东</h2><ul>
 <li>想要免费BLOG的朋友</li>
 <li>无聊的学生</li>
 <li>喜欢MARKDOWN写作</li>
 <li>需要个人博客撑门面</li>
-<li>想进一步催促自己学习的人</li>
+<li>想进一步催促自己学习新技术的人</li>
 <li>等等</li>
 </ul>
-<p>##环境基础<br>ps：本文基于win10操作，mac用户大同小异。<br>在见到您的博客之前，需要进行如下程序（我们叫做运行环境）的安装：<br>1 安装<a href="https://npm.taobao.org/mirrors/git-for-windows/2.12.0.windows.1/Git-2.12.0-64-bit.exe" target="_blank" rel="external">git</a><br>2 安装 <a href="https://nodejs.org/en/" target="_blank" rel="external">node.js</a><br>3 注册<a href="https://github.com" target="_blank" rel="external">github</a>账号，这个流程就不赘述了，并创建仓库，如下图</p>
+<h2 id="环境基础"><a href="#环境基础" class="headerlink" title="环境基础"></a>环境基础</h2><p>ps：本文基于win10操作，mac用户请看<a href="http://www.jianshu.com/p/701b1095da11" target="_blank" rel="external">20分钟教你使用hexo搭建github博客</a>。<br>在见到您的博客之前，需要进行如下程序的安装：<br>1 安装<a href="https://npm.taobao.org/mirrors/git-for-windows/2.12.0.windows.1/Git-2.12.0-64-bit.exe" target="_blank" rel="external">git</a><br>2 安装 <a href="https://nodejs.org/en/" target="_blank" rel="external">node.js</a><br>3 注册<a href="https://github.com" target="_blank" rel="external">github</a>账号，这个流程就不赘述了，并创建仓库，如下图</p>
 <p><img src="http://upload-images.jianshu.io/upload_images/3936403-596eae2236e8533d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图片截自GitHub"><br>点击Start a project，然后出现下图，并按照如下格式填写</p>
 <p><img src="http://upload-images.jianshu.io/upload_images/3936403-ec56e58b1a290142.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="看图中的圈圈"></p>
-<p>看懂了吗？左边显示的啥，就填啥，也就是说注册账号的时候，你的用户名设置的什么，就填写什么，格式如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">你的用户名.github.io</div></pre></td></tr></table></figure></p>
+<p>看懂了吗？左边圈圈里显示的啥，右面圈圈里就填啥，也就是说注册账号的时候，你的用户名设置的什么，就填写什么，格式如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">你的用户名.github.io</div></pre></td></tr></table></figure></p>
 <p>而这个地址，也就会成为可以访问你博客的网址咯！其他地方可填可不填，然后提交，至此，我们的准备工作也就结束了。但是提交之后的页面不要关闭哦，留着，稍后我们还会用到。然后，接下来的步骤就快起来了。</p>
-<p>##开始起飞</p>
-<p>####起飞第一步<br>打开你的git，输入如下代码<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh-keygen -t rsa -C &quot;Github的注册邮箱地址&quot;</div></pre></td></tr></table></figure></p>
+<h2 id="开始起飞"><a href="#开始起飞" class="headerlink" title="开始起飞"></a>开始起飞</h2><hr>
+<h4 id="起飞第一步"><a href="#起飞第一步" class="headerlink" title="起飞第一步"></a>起飞第一步</h4><p>打开你的git，输入如下代码<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh-keygen -t rsa -C &quot;Github的注册邮箱地址&quot;</div></pre></td></tr></table></figure></p>
 <p>一路回车之后会得到两个文件：id_rsa和id_rsa.pub，然后<br>用带格式的编辑器（比方说notepad++或者sublime）打开id_rsa.pub，复制里面的所有内容，然后进入<a href="https://github.com/settings/ssh" target="_blank" rel="external">https://github.com/settings/ssh</a>粘贴到KEY里面：</p>
 <p><img src="http://upload-images.jianshu.io/upload_images/3936403-e49d4222c3e17d1b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图片截自github"></p>
 <p>Title可以随便写名字。完事儿点击添加，至此我们的工作完成了一大半。</p>
-<p>####起飞第二步 安装HEXO<br>声明：这一步可以说是空前绝后的一步，重中之重，好好把握。<br>先不用管HEXO是什么（感兴趣的同学可以<a href="https://hexo.io/zh-cn/docs/index.html" target="_blank" rel="external">点我</a>来根据官方文档部署HEXO，可能需要翻~墙~）<br>1 打开git Bash<br>2 输入<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install -g hexo-cli</div></pre></td></tr></table></figure></p>
+<h4 id="起飞第二步-安装HEXO"><a href="#起飞第二步-安装HEXO" class="headerlink" title="起飞第二步 安装HEXO"></a>起飞第二步 安装HEXO</h4><p>声明：这一步可以说是空前绝后的一步，重中之重，好好把握。<br>先不用管HEXO是什么（感兴趣的同学可以<a href="https://hexo.io/zh-cn/docs/index.html" target="_blank" rel="external">点我</a>来根据官方文档部署HEXO，可能需要翻~墙~）<br>1 打开git Bash<br>2 输入<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install -g hexo-cli</div></pre></td></tr></table></figure></p>
 <p>回车，等待安装完成。<br>3.安装 Hexo 完成后，分步执行（即输入代码之后敲回车）下列命令，Hexo 将会在指定文件夹中新建所需要的文件。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo init &lt;folder&gt;</div></pre></td></tr></table></figure></p>
 <p>上文中folder替换为你想要放置自己博客在本地磁盘上的位置比如说<code>hexo init f:/blog</code><br>再之后执行<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">cd &lt;folder&gt;</div></pre></td></tr></table></figure></p>
 <p>比如说<code>cd f:/blog</code><br>最后执行<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install</div></pre></td></tr></table></figure></p>
 <p>小黑底儿白字一阵滚动之后，就完成了博客的初始化。初始化完成之后之前设定目录下的文件夹里面应该是这样的</p>
 <p><img src="http://upload-images.jianshu.io/upload_images/3936403-3daa65dbb56c09c9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="博客的根本"></p>
-<p>####起飞第三步，对博客进行配置<br>1.找到_config.yml文件，用前面提到的编辑器打开，修改如下部分：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">title: 哈哈哥//网站标题</div><div class="line">subtitle: 哈，比哈哈少一哈//网站副标题</div><div class="line">description: 哈哈哈，比哈哈多一哈//网站描述</div><div class="line">author: 侯康//您的名字</div><div class="line">language: zh-CN//语言</div><div class="line">timezone: Asia/Shanghai//时区</div></pre></td></tr></table></figure></p>
+<h4 id="起飞第三步，对博客进行配置"><a href="#起飞第三步，对博客进行配置" class="headerlink" title="起飞第三步，对博客进行配置"></a>起飞第三步，对博客进行配置</h4><p>1.找到_config.yml文件，用前面提到的编辑器打开，修改如下部分：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">title: 哈哈哥//网站标题</div><div class="line">subtitle: 哈，比哈哈少一哈//网站副标题</div><div class="line">description: 哈哈哈，比哈哈多一哈//网站描述</div><div class="line">author: 侯康//您的名字</div><div class="line">language: zh-CN//语言</div><div class="line">timezone: Asia/Shanghai//时区</div></pre></td></tr></table></figure></p>
 <p>注意：每一项的冒号后面都要留下一个空格，再进行内容填写。<br>2.域名配置<br>顺着前面的配置往下走，有个url项，这就是域名配置。自己有域名的同学可以绑定自己的域名，自己没有域名的同学就乖乖填写之前自己设置的网址吧~<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">url: http://houkang.github.io</div></pre></td></tr></table></figure></p>
 <p>注意：这里的url的冒号后面，还是要留下一个空格。这个配置文件里面所有的内容填写，都要留下一个空格，再写具体内容。<br>3.deploy配置<br>找到deploy部分，然后按照如下格式填写<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">type: git</div><div class="line">repo: https://github.com/houkang/houkang.github.io.git</div><div class="line">branch: master</div></pre></td></tr></table></figure></p>
 <p>首先，没有的项自己添加~<br>其次，repo里面的地址在如图：</p>
 <p><img src="http://upload-images.jianshu.io/upload_images/3936403-37ea4c0014141b97.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="点击箭头指向部分，复制框内的链接"><br>点击箭头指向部分，复制框内的链接，然后粘贴到repo内。<br>最后，branch填写master即可。</p>
-<p>####起飞第四步 通过git 将本地文件传到你的github里<br>在git bash里，输入<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-deployer-git --save</div></pre></td></tr></table></figure></p>
-<p>然后输入<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure></p>
+<h4 id="起飞第四步-通过git-将本地文件传到你的github里"><a href="#起飞第四步-通过git-将本地文件传到你的github里" class="headerlink" title="起飞第四步 通过git 将本地文件传到你的github里"></a>起飞第四步 通过git 将本地文件传到你的github里</h4><p>首先<br>如果之前退出了git，我们需要先访问到我们的网站的根目录<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">cd &lt;folder&gt; //比如 cd f:/blog</div></pre></td></tr></table></figure></p>
+<p>在git bash里，输入<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install hexo-deployer-git --save</div></pre></td></tr></table></figure></p>
+<p>然后输入<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo deploy</div></pre></td></tr></table></figure></p>
 <p>等待进度走完吧~<br>这样，你的网址就可以访问了。赶紧去看两眼。咿呀，最关键的部分忘了，怎么编辑内容呢？</p>
+<h4 id="起飞最终步-内容编辑与更新"><a href="#起飞最终步-内容编辑与更新" class="headerlink" title="起飞最终步 内容编辑与更新"></a>起飞最终步 内容编辑与更新</h4><p>先说说内容编辑<br>还是在git里，如果之前退出了git，记得访问文件目录<br>进而，我们执行<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo new &quot;你想要的文章标题填在这个双引号里&quot;</div></pre></td></tr></table></figure></p>
+<p>这样，你的md文档就生成了，这两步如图</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/3936403-eba989e8e04f421d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="文章编写"><br>然后到图中所给出的地址，我这个是<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">F:\blog\source\_posts\文章标题.md</div></pre></td></tr></table></figure></p>
+<p>找到<code>文章标题.md</code>用编辑器打开它，它是支持MARKDOWN语法编辑的哦，要不然为啥后缀是md呢。<br>编辑好自己的文章，保存之后。<br>再回到git里面输入<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo clean ; hexo genarate</div></pre></td></tr></table></figure></p>
+<p>回车之后，再输入<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo deploy</div></pre></td></tr></table></figure></p>
+<p>再去访问你的首页吧，是不是文章就出现了，惊喜吧！</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/3936403-6d5f9fd0aa98dc4a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="我刚刚搭建完成的首页"></p>
+<h1 id="PS"><a href="#PS" class="headerlink" title="PS"></a>PS</h1><p>我个人程序盲，所以写的东西很俗，但是我又是个程序狂，热爱一切新鲜的技术和内容。<br>初涉此道，希望能跟大家成为朋友。<br>文笔不好，内容很糙，但是小弟用心写了5个多小时。但愿能给想要做这件事的朋友们一点儿帮助。<br>我知道，写这么久，并不是反映了我撰稿辛苦，而是反映了我能力的缺失。从上大学到今年刚刚读研究生，我该开始学点儿什么了。</p>
+<p>内容编辑过程中，朋友给发来了一篇文章，我在这篇文章里又发现了第二篇文章的链接，读完两篇文章之后我又对我的内容进行了很多修改，本文有部分内容借鉴了这两篇文章：<br><a href="http://www.jianshu.com/p/701b1095da11" target="_blank" rel="external">20分钟教你使用hexo搭建github博客</a><br><a href="http://www.jianshu.com/p/701b1095da11" target="_blank" rel="external">手把手教你建github技术博客</a><br>他们的排版以及内容结构，都非常值得我学习。</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://houkang.github.io/2017/03/09/second/" data-id="cj02de5dy000470vozqtyeyjc" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-2" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/03/09/2/" class="article-date">
-  <time datetime="2017-03-09T05:26:36.000Z" itemprop="datePublished">2017-03-09</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/03/09/2/">2</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://houkang.github.io/2017/03/09/2/" data-id="cj02de5dq000070vorgqdyh8c" class="article-share-link">Share</a>
+      <a data-url="https://houkang.github.io/2017/03/09/second/" data-id="cj02ep5zr0000m4vo1xiuptcq" class="article-share-link">Share</a>
       
       
     </footer>
@@ -202,7 +212,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://houkang.github.io/2017/03/09/first/" data-id="cj02de5du000170vogr54tmu9" class="article-share-link">Share</a>
+      <a data-url="https://houkang.github.io/2017/03/09/first/" data-id="cj02ep5zz0003m4vo3o15eebp" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/生活/">生活</a></li></ul>
@@ -249,7 +259,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://houkang.github.io/2017/03/09/hello-world/" data-id="cj02de5du000270vo4dofg3le" class="article-share-link">Share</a>
+      <a data-url="https://houkang.github.io/2017/03/09/hello-world/" data-id="cj02ep5zv0001m4vo3qdvlm45" class="article-share-link">Share</a>
       
       
     </footer>
@@ -303,11 +313,11 @@
       <ul>
         
           <li>
-            <a href="/2017/03/09/second/">这个博客怎么来的</a>
+            <a href="/2017/03/09/文章标题/">文章标题</a>
           </li>
         
           <li>
-            <a href="/2017/03/09/2/">2</a>
+            <a href="/2017/03/09/second/">这个博客怎么来的</a>
           </li>
         
           <li>
